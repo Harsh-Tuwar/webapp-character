@@ -55,5 +55,6 @@ export const SKILL_LIST = [
     { name: 'Sleight of Hand', attributeModifier: 'Dexterity' },
     { name: 'Stealth', attributeModifier: 'Dexterity' },
     { name: 'Survival', attributeModifier: 'Wisdom' },
-
 ]
+
+export const MAX_ATTRIBUTE_LEVEL = 70;

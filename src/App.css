@@ -28,8 +28,12 @@
 
 .App-section {
   flex: 1 1 0;
+  display: flex;
+  flex-direction: column;
   background-color: hsl(220deg 13% 13%);
   color: white;
+  border: 10px;
+  padding: 10px;
 }
 
 .App-link {
@@ -43,4 +47,50 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.border {
+  border: 1px solid grey;
+  border-radius: 10px;
+}
+
+.m5 {
+  margin: 5px;
+}
+
+.p10 {
+  padding: 10px;
+}
+
+.class-req-met {
+  color: red;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.f-1 {
+  flex: 1;
+}
+
+.space-evenly {
+  justify-content: space-evenly;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.character-buttons {
+  background-color: hsl(220deg 13% 13%);
+}
+
+.character-buttons button {
+  margin: 10px;
+  padding: 5px;
+}
+
+.f-row {
+  flex-direction: row;
 }
